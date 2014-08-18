@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settingsmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<node name="CustomCommands">
+		<settings>
+			<setting id="$eclipse" xsi:type="xsd:string">c:\Program Files\eclipse\eclipse.exe</setting>
+			<setting id="$genymotion" xsi:type="xsd:string">"C:\Program Files\Genymobile\Genymotion\genymotion.exe"</setting>
+			<setting id="$intranet" xsi:type="xsd:string">https://inside.delawareconsulting.com/news/Pages/home.aspx</setting>
+			<setting id="$jira" xsi:type="xsd:string">https://dams.delawareconsulting.com/secure/Dashboard.jspa</setting>
+			<setting id="$logs" xsi:type="xsd:string">c:\src\Sleepy.OmniChannel\trunk\src\Sleepy.OmniChannel.Poc.Web\App_Data\Sitefinity\Logs\</setting>
+			<setting id="$luke" xsi:type="xsd:string">c:\Users\dieryckxl\Downloads\lukeall-3.4.0.jar</setting>
+			<setting id="$priv" xsi:type="xsd:string">c:\_priv</setting>
+			<setting id="$prj" xsi:type="xsd:string">c:\prj</setting>
+			<setting id="$ravendbplugins" xsi:type="xsd:string">c:\Program Files (x86)\RavenDB\Plugins</setting>
+			<setting id="$rdp" xsi:type="xsd:string">"C:\Program Files (x86)\Remote Desktop Connection Manager\rdcman.exe"</setting>
+			<setting id="$re" xsi:type="xsd:string">c:\emacs-24.3\bin\runemacs.exe</setting>
+			<setting id="$sim" xsi:type="xsd:string">c:\Sitecore Instance Manager\SIM.Tool.exe</setting>
+			<setting id="$smtp4dev" xsi:type="xsd:string">c:\Users\dieryckxl\Downloads\smtp4dev.exe</setting>
+			<setting id="$src" xsi:type="xsd:string">c:\src</setting>
+			<setting id="$tfs" xsi:type="xsd:string">https://delaware.visualstudio.com/</setting>
+			<setting id="$timelog" xsi:type="xsd:string">https://www.toggl.com/app/#timer</setting>
+			<setting id="$timelogdelaware" xsi:type="xsd:string">https://timesheetapp.delawareconsulting.com/</setting>
+			<setting id="$verlofaanvragen" xsi:type="xsd:string">"C:\Program Files\Internet Explorer\iexplore.exe" "http://dynamite.delaware.be/sites/dynamiteDWR/EmployeeServices/Enterprise%20Portal/HRMEPAbsenceRequest.aspx?WCMP=dwr"</setting>
+			<setting id="$vs" xsi:type="xsd:string">"C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe"</setting>
+			<setting id="$wiki" xsi:type="xsd:string">http://wiki.delaware.be/dashboard.action?spacesSelectedTab=my</setting>
+		</settings>
+	</node>
+	<node name="FormSettings">
+		<settings>
+			<setting id="Color" xsi:type="xsd:int">0</setting>
+			<setting id="FontSize" xsi:type="xsd:int">9</setting>
+			<setting id="Left" xsi:type="xsd:int">500</setting>
+			<setting id="Top" xsi:type="xsd:int">0</setting>
+			<setting id="Transparency" xsi:type="xsd:int">0</setting>
+			<setting id="Width" xsi:type="xsd:int">800</setting>
+		</settings>
+	</node>
+	<node name="QuickCommands">
+		<settings>
+			<setting id="0" xsi:type="xsd:string"></setting>
+			<setting id="1" xsi:type="xsd:string">$re</setting>
+			<setting id="10" xsi:type="xsd:string"></setting>
+			<setting id="11" xsi:type="xsd:string"></setting>
+			<setting id="2" xsi:type="xsd:string"></setting>
+			<setting id="3" xsi:type="xsd:string"></setting>
+			<setting id="4" xsi:type="xsd:string"></setting>
+			<setting id="5" xsi:type="xsd:string"></setting>
+			<setting id="6" xsi:type="xsd:string"></setting>
+			<setting id="7" xsi:type="xsd:string"></setting>
+			<setting id="8" xsi:type="xsd:string"></setting>
+			<setting id="9" xsi:type="xsd:string"></setting>
+		</settings>
+	</node>
+</settingsmap>
