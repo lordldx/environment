@@ -29,6 +29,7 @@ chocolatey install SQLite
 chocolatey install aspnetmvc
 chocolatey install SqlServer2012Express
 chocolatey install AndroidStudio
+chocolatey install android-sdk
 chocolatey install reflector
 chocolatey install virtuawin
 pause
