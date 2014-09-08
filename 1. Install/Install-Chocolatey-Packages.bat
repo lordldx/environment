@@ -32,4 +32,5 @@ chocolatey install AndroidStudio
 chocolatey install android-sdk
 chocolatey install reflector
 chocolatey install virtuawin
+chocolatey install soapui
 pause
