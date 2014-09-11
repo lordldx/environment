@@ -8,7 +8,8 @@ call "Install-Chocolatey-Packages.bat"
 cd ..
 
 REM Install other binary tools
-copy "1. Install\bin" c:\tools\
+mkdir c:\tools\bin\
+copy "1. Install\bin" c:\tools\bin\
 setx PATH "%PATH%;c:\tools\bin"
 
 REM Install config
