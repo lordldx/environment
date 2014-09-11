@@ -3,7 +3,9 @@
 REM THIS SCRIPT MUST BE RUN AS ADMIN
 
 REM Install Chocolatey Packages
-call "1. Install\Install-Chocolatey-Packages.bat"
+cd "1. Install"
+call "Install-Chocolatey-Packages.bat"
+cd ..
 
 REM Install other binary tools
 copy "1. Install\bin" c:\tools\bin\

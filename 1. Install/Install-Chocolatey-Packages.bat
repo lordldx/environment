@@ -2,7 +2,6 @@
 REM This script must be run as administrator
 REM
 
-powershell -NoProfile -ExecutionPolicy unrestricted .\Install-Chocolatey.ps1
 chocolatey install GoogleChrome
 chocolatey install sysinternals
 chocolatey install putty
@@ -31,4 +30,3 @@ chocolatey install android-sdk
 chocolatey install reflector
 chocolatey install virtuawin
 chocolatey install soapui
-pause
