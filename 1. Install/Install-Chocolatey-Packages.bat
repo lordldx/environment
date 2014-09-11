@@ -3,8 +3,6 @@ REM This script must be run as administrator
 REM
 
 powershell -NoProfile -ExecutionPolicy unrestricted .\Install-Chocolatey.ps1
-chocolatey install git
-chocolatey install cntlm
 chocolatey install GoogleChrome
 chocolatey install sysinternals
 chocolatey install putty
