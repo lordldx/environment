@@ -102,6 +102,12 @@
       (append '(("\\.cs$" . csharp-mode)) auto-mode-alist))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; YAML mode
+(autoload 'yaml-mode "yaml-mode" "Major mode for editing YAML code." t)
+(setq auto-mode-alist
+      (append '(("\\.\\(yml\\|yaml\\)$" . yaml-mode)) auto-mode-alist))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; General customizations
 ;; don't show that ugly toolbar
 (tool-bar-mode -1)
