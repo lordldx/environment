@@ -3,6 +3,7 @@
 	<node name="CustomCommands">
 		<settings>
 			<setting id="$eclipse" xsi:type="xsd:string">c:\Program Files\eclipse\eclipse.exe</setting>
+			<setting id="$fuslogvw" xsi:type="xsd:string">C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\FUSLOGVW.exe</setting>
 			<setting id="$genymotion" xsi:type="xsd:string">"C:\Program Files\Genymobile\Genymotion\genymotion.exe"</setting>
 			<setting id="$intranet" xsi:type="xsd:string">https://inside.delawareconsulting.com/news/Pages/home.aspx</setting>
 			<setting id="$jira" xsi:type="xsd:string">https://dams.delawareconsulting.com/secure/Dashboard.jspa</setting>
@@ -17,6 +18,7 @@
 			<setting id="$smtp4dev" xsi:type="xsd:string">c:\Users\dieryckxl\Downloads\smtp4dev.exe</setting>
 			<setting id="$src" xsi:type="xsd:string">c:\src</setting>
 			<setting id="$tfs" xsi:type="xsd:string">https://delaware.visualstudio.com/</setting>
+			<setting id="$tfsuniekloket" xsi:type="xsd:string">https://ends-dlwr.visualstudio.com/DefaultCollection/ENDS.UniekLoket</setting>
 			<setting id="$timelog" xsi:type="xsd:string">https://www.toggl.com/app/#timer</setting>
 			<setting id="$timelogdelaware" xsi:type="xsd:string">https://timesheetapp.delawareconsulting.com/</setting>
 			<setting id="$verlofaanvragen" xsi:type="xsd:string">"C:\Program Files\Internet Explorer\iexplore.exe" "http://dynamite.delaware.be/sites/dynamiteDWR/EmployeeServices/Enterprise%20Portal/HRMEPAbsenceRequest.aspx?WCMP=dwr"</setting>

@@ -24,9 +24,20 @@ chocolatey install treesizefree
 chocolatey install genymotion
 chocolatey install SQLite
 chocolatey install aspnetmvc
-chocolatey install SqlServer2012Express
+chocolatey install sql-server-express -version 13.0.1601.5
+chocolatey install sql-server-management-studio -version 13.0.15800.18
 chocolatey install AndroidStudio
 chocolatey install android-sdk
 chocolatey install reflector
 chocolatey install virtuawin
 chocolatey install soapui
+chocolatey install cloudberryexplorer.azurestorage
+chocolatey install mongodb
+chocolatey install robomongo
+chocolatey install checksum
+chocolatey install todoist-outlook
+chocolatey install firefox
+chocolatey install tor-browser
+chocolatey install visualstudiocode
+chocolatey install visualstudio2015professional
+chocolatey install wireshark
