@@ -41,3 +41,4 @@ chocolatey install tor-browser
 chocolatey install visualstudiocode
 chocolatey install visualstudio2015professional
 chocolatey install wireshark
+chocolatey install rdcman
