@@ -2,35 +2,45 @@
 <settingsmap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<node name="CustomCommands">
 		<settings>
+			<setting id="$calc" xsi:type="xsd:string">perl -e"exec('echo ' . eval($ARGV[0]) . ' | clip')"</setting>
 			<setting id="$eclipse" xsi:type="xsd:string">c:\Program Files\eclipse\eclipse.exe</setting>
 			<setting id="$fuslogvw" xsi:type="xsd:string">C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\FUSLOGVW.exe</setting>
 			<setting id="$genymotion" xsi:type="xsd:string">"C:\Program Files\Genymobile\Genymotion\genymotion.exe"</setting>
+			<setting id="$hln" xsi:type="xsd:string">http://www.hln.be</setting>
 			<setting id="$intranet" xsi:type="xsd:string">https://inside.delawareconsulting.com/news/Pages/home.aspx</setting>
 			<setting id="$jira" xsi:type="xsd:string">https://dams.delawareconsulting.com/secure/Dashboard.jspa</setting>
 			<setting id="$logs" xsi:type="xsd:string">c:\src\Sleepy.OmniChannel\trunk\src\Sleepy.OmniChannel.Poc.Web\App_Data\Sitefinity\Logs\</setting>
-			<setting id="$luke" xsi:type="xsd:string">c:\Users\dieryckxl\Downloads\lukeall-3.4.0.jar</setting>
+			<setting id="$luke" xsi:type="xsd:string">c:\Users\Lorenzo\Downloads\lukeall-3.5.0.jar</setting>
 			<setting id="$priv" xsi:type="xsd:string">c:\_priv</setting>
 			<setting id="$prj" xsi:type="xsd:string">c:\prj</setting>
 			<setting id="$ravendbplugins" xsi:type="xsd:string">c:\Program Files (x86)\RavenDB\Plugins</setting>
 			<setting id="$rdp" xsi:type="xsd:string">"C:\Program Files (x86)\Remote Desktop Connection Manager\rdcman.exe"</setting>
-			<setting id="$re" xsi:type="xsd:string">c:\emacs-24.3\bin\runemacs.exe</setting>
+			<setting id="$rdpcarrecouture" xsi:type="xsd:string">C:\src\DeRaekt\DRKT.CarreCouture.dev\solution items\DRKT.CarreCouture.rdg</setting>
+			<setting id="$re" xsi:type="xsd:string">c:\ProgramData\chocolatey\bin\runemacs.exe</setting>
+			<setting id="$scheduling" xsi:type="xsd:string">https://scheduling.delawareconsulting.com</setting>
 			<setting id="$sim" xsi:type="xsd:string">c:\Sitecore Instance Manager\SIM.Tool.exe</setting>
-			<setting id="$smtp4dev" xsi:type="xsd:string">c:\Users\dieryckxl\Downloads\smtp4dev.exe</setting>
+			<setting id="$slackcarrecouture" xsi:type="xsd:string">https://dlw-carrecouture.slack.com</setting>
+			<setting id="$smtp4dev" xsi:type="xsd:string">c:\tools\smtp4dev\smtp4dev.exe</setting>
 			<setting id="$src" xsi:type="xsd:string">c:\src</setting>
+			<setting id="$startmongo" xsi:type="xsd:string">c:\Program Files\MongoDB\Server\3.2\bin\mongod.exe</setting>
 			<setting id="$tfs" xsi:type="xsd:string">https://delaware.visualstudio.com/</setting>
+			<setting id="$tfscarrecouture" xsi:type="xsd:string">https://drkt-dlwr.visualstudio.com/DefaultCollection/DRKT.CarreCouture/_dashboards</setting>
+			<setting id="$tfsgamemania" xsi:type="xsd:string">https://gama-dlwr.visualstudio.com/DefaultCollection/GameMania.OmniChannel/_dashboards</setting>
+			<setting id="$tfsscbase" xsi:type="xsd:string">https://slnsupp-dlwr.visualstudio.com/</setting>
 			<setting id="$tfsuniekloket" xsi:type="xsd:string">https://ends-dlwr.visualstudio.com/DefaultCollection/ENDS.UniekLoket</setting>
 			<setting id="$timelog" xsi:type="xsd:string">https://www.toggl.com/app/#timer</setting>
 			<setting id="$timelogdelaware" xsi:type="xsd:string">https://timesheetapp.delawareconsulting.com/</setting>
+			<setting id="$uniekloketrdp" xsi:type="xsd:string">c:\src\Eandis\ENDS.UniekLoket\solution items\Eandis.UniekLoket.rdg</setting>
 			<setting id="$verlofaanvragen" xsi:type="xsd:string">"C:\Program Files\Internet Explorer\iexplore.exe" "http://dynamite.delaware.be/sites/dynamiteDWR/EmployeeServices/Enterprise%20Portal/HRMEPAbsenceRequest.aspx?WCMP=dwr"</setting>
 			<setting id="$vs" xsi:type="xsd:string">"C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\devenv.exe"</setting>
-			<setting id="$wiki" xsi:type="xsd:string">http://wiki.delaware.be/dashboard.action?spacesSelectedTab=my</setting>
+			<setting id="$wiki" xsi:type="xsd:string">http://wiki.delawareconsulting.com/dashboard.action?spacesSelectedTab=my</setting>
 		</settings>
 	</node>
 	<node name="FormSettings">
 		<settings>
 			<setting id="Color" xsi:type="xsd:int">0</setting>
 			<setting id="FontSize" xsi:type="xsd:int">9</setting>
-			<setting id="Left" xsi:type="xsd:int">500</setting>
+			<setting id="Left" xsi:type="xsd:int">369</setting>
 			<setting id="Top" xsi:type="xsd:int">0</setting>
 			<setting id="Transparency" xsi:type="xsd:int">0</setting>
 			<setting id="Width" xsi:type="xsd:int">800</setting>
