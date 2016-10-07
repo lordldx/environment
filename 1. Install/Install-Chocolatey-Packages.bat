@@ -44,3 +44,4 @@ chocolatey install wireshark -y
 chocolatey install rdcman -y
 chocolatey install openssh -y
 chocolatey install nodejs -y
+chocolatey install python -y
