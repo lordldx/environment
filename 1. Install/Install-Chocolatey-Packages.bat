@@ -42,3 +42,5 @@ chocolatey install visualstudiocode -y
 chocolatey install visualstudio2015professional -y
 chocolatey install wireshark -y
 chocolatey install rdcman -y
+chocolatey install openssh -y
+chocolatey install nodejs -y
