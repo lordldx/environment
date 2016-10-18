@@ -11,6 +11,7 @@
 			<setting id="$jira" xsi:type="xsd:string">https://dams.delawareconsulting.com/secure/Dashboard.jspa</setting>
 			<setting id="$logs" xsi:type="xsd:string">c:\src\Sleepy.OmniChannel\trunk\src\Sleepy.OmniChannel.Poc.Web\App_Data\Sitefinity\Logs\</setting>
 			<setting id="$luke" xsi:type="xsd:string">c:\tools\bin\lukeall-3.5.0.jar</setting>
+			<setting id="$mongoshell" xsi:type="xsd:string">c:\Program Files\MongoDB\Server\3.2\bin\mongo.exe</setting>
 			<setting id="$priv" xsi:type="xsd:string">c:\_priv</setting>
 			<setting id="$prj" xsi:type="xsd:string">c:\prj</setting>
 			<setting id="$ravendbplugins" xsi:type="xsd:string">c:\Program Files (x86)\RavenDB\Plugins</setting>
