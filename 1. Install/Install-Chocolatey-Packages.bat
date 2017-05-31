@@ -19,7 +19,7 @@ chocolatey install 7zip -y
 chocolatey install dotPeek -y
 chocolatey install spotify -y
 chocolatey install StrawberryPerl -y
-chocolatey install Emacs -y
+chocolatey install emacs64 -y
 chocolatey install treesizefree -y
 chocolatey install genymotion -y
 chocolatey install SQLite -y
