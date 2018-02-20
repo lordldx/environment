@@ -7,6 +7,7 @@
 			<setting id="$eclipse" xsi:type="xsd:string">c:\Program Files\eclipse\eclipse.exe</setting>
 			<setting id="$fuslogvw" xsi:type="xsd:string">C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\FUSLOGVW.exe</setting>
 			<setting id="$genymotion" xsi:type="xsd:string">"C:\Program Files\Genymobile\Genymotion\genymotion.exe"</setting>
+			<setting id="$goodmorning" xsi:type="xsd:string">"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --new-window https://www.toggl.com/app/timer https://feedly.com/i/latest https://todoist.com/app</setting>
 			<setting id="$hln" xsi:type="xsd:string">http://www.hln.be</setting>
 			<setting id="$infracarrecouture" xsi:type="xsd:string">https://wiki.delawareconsulting.com/display/DRKTA/Infrastructure</setting>
 			<setting id="$intranet" xsi:type="xsd:string">https://inside.delawareconsulting.com/news/Pages/home.aspx</setting>
@@ -46,8 +47,8 @@
 		<settings>
 			<setting id="Color" xsi:type="xsd:int">0</setting>
 			<setting id="FontSize" xsi:type="xsd:int">9</setting>
-			<setting id="Left" xsi:type="xsd:int">369</setting>
-			<setting id="Top" xsi:type="xsd:int">0</setting>
+			<setting id="Left" xsi:type="xsd:int">387</setting>
+			<setting id="Top" xsi:type="xsd:int">10</setting>
 			<setting id="Transparency" xsi:type="xsd:int">0</setting>
 			<setting id="Width" xsi:type="xsd:int">800</setting>
 		</settings>
