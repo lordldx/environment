@@ -62,6 +62,8 @@ cinst winscp
 
 # own tools
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "1. Install\bin") -Force c:\tools
+Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "1. Install\smtp4dev") -Force c:\tools
+Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "1. Install\SQLite") -Force c:\tools
 [System.Environment]::SetEnvironmentVariable("PATH", $Env:Path + ";C:\tools\bin", "Machine")
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "2. Config\NazCommander_commands.xml") -Force c:\tools\bin\NazCommander_commands.xml
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "2. Config\.emacs") -Force $env:appdata\.emacs
