@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>LordLdxEnvironment</id>
+    <version>1.0.0</version>
+    <authors>DieryckxL</authors>
+    <owners>DieryckxL</owners>
+    <description>lordldx's boxstarter package</description>
+    <tags>Boxstarter</tags>
+  </metadata>
+</package>
