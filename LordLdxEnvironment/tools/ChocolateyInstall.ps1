@@ -59,6 +59,7 @@ cinst steam
 cinst jing
 cinst xmind
 cinst winscp
+cinst iisexpress --ignore-checksums
 
 # own tools
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "1. Install\bin") -Force c:\tools
