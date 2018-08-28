@@ -60,6 +60,7 @@ cinst jing
 cinst xmind
 cinst winscp
 cinst iisexpress --ignore-checksums
+cinst microsoft-teams
 
 # own tools
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "1. Install\bin") -Force c:\tools
