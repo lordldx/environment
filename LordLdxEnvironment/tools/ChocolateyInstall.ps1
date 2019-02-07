@@ -54,7 +54,7 @@ cinst python
 cinst staruml
 cinst redis-64
 cinst sketchup
-cinst sql-operations-studio
+cinst azure-data-studio
 cinst steam
 cinst jing
 cinst xmind
