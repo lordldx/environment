@@ -1,3 +1,17 @@
+# local functions
+Function Enable-Numlock {
+    Write-Host "Enabling NumLock after startup..."
+    If (!(Test-Path "HKU:")) {
+        New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS | Out-Null
+    }
+    Set-ItemProperty -Path "HKU:\.DEFAULT\Control Panel\Keyboard" -Name "InitialKeyboardIndicators" -Type DWord -Value 2147483650
+    Add-Type -AssemblyName System.Windows.Forms
+    If (!([System.Windows.Forms.Control]::IsKeyLocked('NumLock'))) {
+        $wsh = New-Object -ComObject WScript.Shell
+        $wsh.SendKeys('{NUMLOCK}')
+    }
+}
+
 # general windows settings
 
 Update-ExecutionPolicy Unrestricted
@@ -58,6 +72,7 @@ choco install fiddler
 choco install garmin-express
 choco install postman
 choco install microsoft-windows-terminal
+choco install bitwarden
 
 # allnex
 choco install forticlientvpn
@@ -85,3 +100,8 @@ Pop-Location
 choco install Microsoft-Hyper-V-All -source windowsFeatures
 choco install IIS-WebServerRole -source windowsfeatures
 choco install TelnetClient -source windowsFeatures
+
+# windows config
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+Disable-UAC
+Enable-Numlock
