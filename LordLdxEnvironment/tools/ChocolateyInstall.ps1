@@ -11,31 +11,26 @@ cinst GoogleChrome
 cinst sysinternals
 cinst putty
 cinst filezilla
-cinst skype
 cinst fiddler
-cinst virtualbox
 cinst wget
 cinst curl
-cinst resharper
 cinst gimp
 cinst 7zip
 cinst dotPeek
 cinst spotify --ignore-checksums
-cinst StrawberryPerl
-cinst emacs64
 cinst treesizefree
 cinst SQLite
+cinst dotnet
 cinst dotnetcore-sdk
+cinst dotnet-5.0-sdk
+cinst dotnet-6.0-sdk
 cinst aspnetmvc4.install
+cinst visualstudio2022professional
+cinst visualstudio2022-workload-netweb
+cinst visualstudio2022-workload-azure
 cinst sql-server-express
 cinst sql-server-management-studio
 cinst reflector --ignore-checksums
-cinst virtuawin
-cinst soapui
-cinst cloudberryexplorer.azurestorage
-cinst mongodb
-cinst robomongo
-cinst docker
 cinst checksum
 cinst todoist-outlook
 cinst firefox
@@ -44,9 +39,10 @@ cinst tor-browser
 cinst vscode
 cinst vscode-powershell
 cinst vscode-csharp
-cinst vscode-docker
 cinst vscode-mssql
-cinst visualstudio2017professional
+cinst vscode-azurerm-tools
+cinst azureaccount-vscode
+cinst vscode-drawio
 cinst wireshark
 cinst rdcman
 cinst nodejs
@@ -56,11 +52,16 @@ cinst redis-64
 cinst sketchup
 cinst azure-data-studio
 cinst steam
-cinst jing
+cinst battle.net
 cinst xmind
 cinst winscp
 cinst iisexpress --ignore-checksums
-cinst microsoft-teams
+cinst fiddler
+cinst garmin-express
+cinst postman
+
+# allnex
+cinst forticlientvpn
 
 # own tools
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "1. Install\bin") -Force c:\tools
