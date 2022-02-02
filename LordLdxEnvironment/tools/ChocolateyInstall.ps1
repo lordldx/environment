@@ -7,62 +7,60 @@ Disable-BingSearch
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
 
 # choco tools
-cinst GoogleChrome
-cinst sysinternals
-cinst putty
-cinst filezilla
-cinst fiddler
-cinst wget
-cinst curl
-cinst gimp
-cinst 7zip
-cinst dotPeek
-cinst spotify --ignore-checksums
-cinst treesizefree
-cinst SQLite
-cinst dotnet
-cinst dotnetcore-sdk
-cinst dotnet-5.0-sdk
-cinst dotnet-6.0-sdk
-cinst aspnetmvc4.install
-cinst visualstudio2022professional
-cinst visualstudio2022-workload-netweb
-cinst visualstudio2022-workload-azure
-cinst sql-server-express
-cinst sql-server-management-studio
-cinst reflector --ignore-checksums
-cinst checksum
-cinst todoist-outlook
-cinst firefox
-cinst opera
-cinst tor-browser
-cinst vscode
-cinst vscode-powershell
-cinst vscode-csharp
-cinst vscode-mssql
-cinst vscode-azurerm-tools
-cinst azureaccount-vscode
-cinst vscode-drawio
-cinst wireshark
-cinst rdcman
-cinst nodejs
-cinst python
-cinst staruml
-cinst redis-64
-cinst sketchup
-cinst azure-data-studio
-cinst steam
-cinst battle.net
-cinst xmind
-cinst winscp
-cinst iisexpress --ignore-checksums
-cinst fiddler
-cinst garmin-express
-cinst postman
-cinst microsoft-windows-terminal
+choco install GoogleChrome
+choco install sysinternals
+choco install putty
+choco install filezilla
+choco install fiddler
+choco install wget
+choco install curl
+choco install gimp
+choco install 7zip
+choco install dotPeek
+choco install treesizefree
+choco install SQLite
+choco install dotnet
+choco install dotnetcore-sdk
+choco install dotnet-5.0-sdk
+choco install dotnet-6.0-sdk
+choco install visualstudio2022professional
+choco install visualstudio2022-workload-netweb
+choco install visualstudio2022-workload-azure
+choco install sql-server-express
+choco install sql-server-management-studio
+choco install reflector --ignore-checksums
+choco install checksum
+choco install todoist-outlook
+choco install firefox
+choco install opera
+choco install tor-browser
+choco install vscode
+choco install vscode-powershell
+choco install vscode-csharp
+choco install vscode-mssql
+choco install vscode-azurerm-tools
+choco install azureaccount-vscode
+choco install vscode-drawio
+choco install wireshark
+choco install rdcman
+choco install nodejs
+choco install python
+choco install staruml
+choco install redis-64
+choco install sketchup
+choco install azure-data-studio
+choco install steam
+choco install battle.net
+choco install xmind
+choco install winscp
+choco install iisexpress --ignore-checksums
+choco install fiddler
+choco install garmin-express
+choco install postman
+choco install microsoft-windows-terminal
 
 # allnex
-cinst forticlientvpn
+choco install forticlientvpn
 
 # own tools
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "1. Install\bin") -Force c:\tools
@@ -84,6 +82,6 @@ Pop-Location
 
 
 # windows features
-cinst Microsoft-Hyper-V-All -source windowsFeatures
-cinst IIS-WebServerRole -source windowsfeatures
-cinst TelnetClient -source windowsFeatures
+choco install Microsoft-Hyper-V-All -source windowsFeatures
+choco install IIS-WebServerRole -source windowsfeatures
+choco install TelnetClient -source windowsFeatures
