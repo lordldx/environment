@@ -73,6 +73,7 @@ choco install garmin-express
 choco install postman
 choco install microsoft-windows-terminal
 choco install bitwarden
+choco install azure-functions-core-tools
 
 # allnex
 choco install forticlientvpn
