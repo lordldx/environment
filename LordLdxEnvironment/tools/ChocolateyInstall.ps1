@@ -59,6 +59,7 @@ cinst iisexpress --ignore-checksums
 cinst fiddler
 cinst garmin-express
 cinst postman
+cinst microsoft-windows-terminal
 
 # allnex
 cinst forticlientvpn
