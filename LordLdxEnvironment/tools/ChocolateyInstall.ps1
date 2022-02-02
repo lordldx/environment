@@ -74,6 +74,8 @@ choco install postman
 choco install microsoft-windows-terminal
 choco install bitwarden
 choco install azure-functions-core-tools
+choco install azure-cosmosdb-emulator
+choco install azurestorageemulator
 
 # allnex
 choco install forticlientvpn
