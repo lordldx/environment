@@ -76,6 +76,7 @@ choco install bitwarden
 choco install azure-functions-core-tools
 choco install azure-cosmosdb-emulator
 choco install azurestorageemulator
+choco install grep
 
 # allnex
 choco install forticlientvpn
@@ -89,10 +90,8 @@ Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "2. Confi
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "2. Config\.emacs") -Force $env:appdata\.emacs
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "2. Config\yaml-mode.el") -Force $env:appdata\yaml-mode.el
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "2. Config\FileZilla") -Force $env:appdata\FileZilla2
-Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "2. Config\robomongo.json") -Force $env:homedrive$env:homepath\.config\.robomongo\0.9
 
 # Add registry keys
-reg import (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "2. Config\putty.reg")
 Push-Location
 Set-Location HKLM:
 New-ItemProperty -Path .\SOFTWARE\Microsoft\Windows\CurrentVersion\Run -Name NazCommander -Value "c:\tools\bin\NazCommander.exe"
