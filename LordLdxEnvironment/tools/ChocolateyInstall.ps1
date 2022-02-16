@@ -77,6 +77,7 @@ choco install azure-functions-core-tools
 choco install azure-cosmosdb-emulator
 choco install azurestorageemulator
 choco install grep
+choco install azure-cli
 
 # allnex
 choco install forticlientvpn
