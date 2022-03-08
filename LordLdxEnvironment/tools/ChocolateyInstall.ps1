@@ -78,6 +78,7 @@ choco install azure-cosmosdb-emulator
 choco install azurestorageemulator
 choco install grep
 choco install azure-cli
+choco install NuGet.CommandLine
 
 # allnex
 choco install forticlientvpn
