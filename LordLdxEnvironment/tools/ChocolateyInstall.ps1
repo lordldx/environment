@@ -76,6 +76,7 @@ choco install bitwarden
 choco install azure-functions-core-tools
 choco install azure-cosmosdb-emulator
 choco install azurestorageemulator
+choco install elasticsearch
 choco install grep
 choco install azure-cli
 choco install NuGet.CommandLine
