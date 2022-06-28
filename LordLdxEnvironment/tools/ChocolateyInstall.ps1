@@ -80,6 +80,7 @@ choco install elasticsearch
 choco install grep
 choco install azure-cli
 choco install NuGet.CommandLine
+choco install lockhunter
 
 # allnex
 choco install forticlientvpn
