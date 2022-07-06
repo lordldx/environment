@@ -84,6 +84,7 @@ choco install lockhunter
 
 # allnex
 choco install forticlientvpn
+choco install xrmtoolbox
 
 # own tools
 Copy-Item (Join-Path -Path (Get-PackageRoot($MyInvocation)) -ChildPath "1. Install\bin") -Force c:\tools
