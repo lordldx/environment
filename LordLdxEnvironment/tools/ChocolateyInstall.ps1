@@ -44,7 +44,6 @@ choco install sql-server-express
 choco install sql-server-management-studio
 choco install reflector --ignore-checksums
 choco install checksum
-choco install todoist-outlook
 choco install firefox
 choco install opera
 choco install tor-browser
