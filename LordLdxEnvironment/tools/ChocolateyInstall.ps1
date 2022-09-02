@@ -53,6 +53,9 @@ choco install vscode-csharp
 choco install vscode-mssql
 choco install vscode-azurerm-tools
 choco install vscode-drawio
+choco install vscode-powershell
+#INTENT choco install vscode-adb2c
+#INTENT choco install vscode-restclient
 choco install azureaccount-vscode
 choco install vscode-drawio
 choco install wireshark
