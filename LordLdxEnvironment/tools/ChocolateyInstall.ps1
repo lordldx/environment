@@ -84,6 +84,7 @@ choco install grep
 choco install azure-cli
 choco install NuGet.CommandLine
 choco install lockhunter
+choco install ngrok
 
 # allnex
 choco install forticlientvpn
