@@ -56,9 +56,11 @@ code --install-extension ms-vscode.PowerShell
 code --install-extension esbenp.prettier-vscode
 code --install-extension humao.rest-client
 code --install-extension Wokwi.wokwi-vscode
+code --install-extension bierner.markdown-mermaid
 choco install wireshark
 choco install rdcman
 choco install nodejs
+npm install mermaid-cli -g
 choco install python
 choco install sketchup
 choco install steam
@@ -83,6 +85,7 @@ choco install ngrok
 # todoist outlook plugin
 
 # also: make sure that things linke containers & mapped container configs are copied over.
+# include browser profiles
 
 
 # allnex
