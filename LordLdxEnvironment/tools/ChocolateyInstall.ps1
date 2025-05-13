@@ -32,6 +32,7 @@ choco install proxyman
 choco install wget
 choco install curl
 choco install gimp
+choco install inkscape
 choco install 7zip
 choco install treesizefree
 choco install SQLite
@@ -40,6 +41,7 @@ choco install visualstudio2022professional
 choco install visualstudio2022-workload-netweb
 choco install visualstudio2022-workload-azure
 choco install sql-server-express
+choco install sql-server-2022
 choco install sql-server-management-studio
 choco install checksum
 choco install firefox
@@ -64,7 +66,6 @@ npm install mermaid-cli -g
 choco install python
 choco install sketchup
 choco install steam
-choco install battle.net
 choco install spotify
 choco install iisexpress --ignore-checksums
 choco install garmin-express
@@ -73,19 +74,15 @@ choco install bitwarden
 choco install azure-functions-core-tools
 choco install azure-cosmosdb-emulator
 choco install azurestorageemulator
-choco install elasticsearch
 choco install grep
 choco install azure-cli
 choco install NuGet.CommandLine
 choco install lockhunter
 choco install ngrok
-
-# TODO
-# todoist
-# todoist outlook plugin
+choco install todoist-desktop
+choco install todoist-outlook
 
 # also: make sure that things linke containers & mapped container configs are copied over.
-# include browser profiles
 
 
 # allnex
