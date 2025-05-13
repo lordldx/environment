@@ -83,6 +83,7 @@ choco install todoist-desktop
 choco install todoist-outlook
 
 # also: make sure that things linke containers & mapped container configs are copied over.
+# include browser profiles
 
 
 # allnex
