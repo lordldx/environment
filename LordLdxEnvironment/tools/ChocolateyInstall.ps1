@@ -23,6 +23,8 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 choco install Microsoft-Hyper-V-All -source windowsFeatures
 choco install IIS-WebServerRole -source windowsfeatures
 choco install TelnetClient -source windowsFeatures
+choco install Printing-PrintToPDFServices-Features -source windowsFeatures
+choco uninstall Printing-XPSServices-Features -source windowsFeatures
 
 # choco tools
 choco install GoogleChrome
@@ -47,6 +49,7 @@ choco install checksum
 choco install firefox
 choco install opera
 choco install tor-browser
+choco install wsl2
 choco install podman-cli
 choco install podman-desktop
 choco install vscode
@@ -70,12 +73,14 @@ choco install spotify
 choco install iisexpress --ignore-checksums
 choco install garmin-express
 choco install microsoft-windows-terminal
+choco install oh-my-posh
 choco install bitwarden
 choco install azure-functions-core-tools
 choco install azure-cosmosdb-emulator
 choco install azurestorageemulator
 choco install grep
 choco install azure-cli
+choco install heroku-cli
 choco install NuGet.CommandLine
 choco install lockhunter
 choco install ngrok
@@ -101,3 +106,11 @@ Push-Location
 # Set-Location HKLM:
 # New-ItemProperty -Path .\SOFTWARE\Microsoft\Windows\CurrentVersion\Run -Name NazCommander -Value "c:\tools\bin\NazCommander.exe"
 Pop-Location
+
+
+# Manual steps
+# Configure windows terminal: https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal
+# copy the src folder: c:\src
+# copy browser profiles: C:\Users\dieryckxl\AppData\Local\Google\Chrome\User Data
+# copy databases: c:\Users\dieryckxl\*.mdf & *.ldf
+# copy podman containers: C:\Users\dieryckxl\.local
