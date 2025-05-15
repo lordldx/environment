@@ -53,19 +53,9 @@ choco install wsl2
 choco install podman-cli
 choco install podman-desktop
 choco install vscode
-code --install-extension ms-dotnettools.csdefkit
-code --install-extension AzureADB2CTools.aadb2c
-code --install-extension hediet.vscode-drawio
-code --install-extension platformio.platformio-ide
-code --install-extension ms-vscode.PowerShell
-code --install-extension esbenp.prettier-vscode
-code --install-extension humao.rest-client
-code --install-extension Wokwi.wokwi-vscode
-code --install-extension bierner.markdown-mermaid
 choco install wireshark
 choco install rdcman
 choco install nodejs
-npm install mermaid-cli -g
 choco install python
 choco install sketchup
 choco install steam
@@ -86,6 +76,21 @@ choco install lockhunter
 choco install ngrok
 choco install todoist-desktop
 choco install todoist-outlook
+
+Invoke-Reboot  # Force reboot to ensure that the installed programs are "known" in the PATH before calling them to install extensions
+# vscode extensions
+code --install-extension ms-dotnettools.csdevkit
+code --install-extension AzureADB2CTools.aadb2c
+code --install-extension hediet.vscode-drawio
+code --install-extension platformio.platformio-ide
+code --install-extension ms-vscode.PowerShell
+code --install-extension esbenp.prettier-vscode
+code --install-extension humao.rest-client
+code --install-extension Wokwi.wokwi-vscode
+code --install-extension bierner.markdown-mermaid
+
+# global node modules
+npm install mermaid-cli -g
 
 # also: make sure that things linke containers & mapped container configs are copied over.
 # include browser profiles
