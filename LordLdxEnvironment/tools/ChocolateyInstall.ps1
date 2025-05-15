@@ -25,6 +25,7 @@ choco install IIS-WebServerRole -source windowsfeatures
 choco install TelnetClient -source windowsFeatures
 choco install Printing-PrintToPDFServices-Features -source windowsFeatures
 choco uninstall Printing-XPSServices-Features -source windowsFeatures
+choco install NetFx3 -source windowsFeatures # .net framework 3.5; required for garmin express
 
 # choco tools
 choco install GoogleChrome
