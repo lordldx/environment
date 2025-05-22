@@ -69,6 +69,7 @@ choco install bitwarden
 choco install azure-functions-core-tools
 choco install azure-cosmosdb-emulator
 choco install azurestorageemulator
+choco install microsoftazurestorageexplorer
 choco install grep
 choco install azure-cli
 choco install heroku-cli
