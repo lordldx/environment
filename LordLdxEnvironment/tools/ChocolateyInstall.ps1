@@ -90,6 +90,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension humao.rest-client
 code --install-extension Wokwi.wokwi-vscode
 code --install-extension bierner.markdown-mermaid
+code --install-extension GitHub.copilot
 
 # global node modules
 npm install mermaid-cli -g
